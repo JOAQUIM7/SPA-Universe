@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;    
+    background-image: url("/image/mountains-universe-1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    padding: 4rem 7.2rem;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    color: #8D8D99;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    margin-bottom: 62px;
+}
+/*
+a {
+    color: #8D8D99;
+    text-decoration: none
+}*/
+#app {
+    padding-left: 100px;
+}
+#app h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #E1E1E6;
+}
+
+#app p {
+    width: 648px;
+    font-size: 18px;
+    line-height: 160%;
+    color: #E1E1E6;
+}
+
+#app button {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    background: none;
+    padding: 12px 32px;
+}
+
+.home #app {
+    margin-top: 172px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.universe {
+    background-image: url("/image/mountains-universe02.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.exploration {
+    background-image: url("/image/mountains-universe-3.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.exploration  a,
+.home  a,
+.universe  a
+{
+    color: #8D8D99;
+    text-decoration: none
+}
+
+.home  a:nth-child(2),
+.universe  a:nth-child(3), 
+.exploration  a:nth-child(4)
+{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+button {
+    cursor: pointer;
+}
